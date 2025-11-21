@@ -5,7 +5,9 @@
  */
 
 const gcd = (firstNumber: number, secondNumber: number): number => {
-    return secondNumber === 0 ? firstNumber : gcd(secondNumber, firstNumber % secondNumber);
+  return secondNumber === 0
+    ? firstNumber
+    : gcd(secondNumber, firstNumber % secondNumber);
 };
 
 /**
@@ -16,5 +18,7 @@ const gcd = (firstNumber: number, secondNumber: number): number => {
  * @see https://www.freecodecamp.org/learn/daily-coding-challenge/2025-11-21
  */
 export const lcm = (firstNumber: number, secondNumber: number): number => {
-    return (firstNumber * secondNumber) / gcd(firstNumber, secondNumber);
-}
+  const product = firstNumber * secondNumber;
+  const gcdValue = gcd(firstNumber, secondNumber);
+  return product / gcdValue;
+};
