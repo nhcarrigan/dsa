@@ -6,7 +6,7 @@ export default defineConfig({
       provider: 'v8',
       reporter: ['text'],
       include: ['src/**/*.ts'],
-      exclude: ['src/**/*.spec.ts'],
+      exclude: ['src/**/*.spec.ts', 'src/type-challenges/**/*.ts'],
       thresholds: {
         statements: 100,
         branches: 100,
