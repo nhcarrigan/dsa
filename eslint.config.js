@@ -8,6 +8,7 @@ export default [
       "max-depth": "off",
       "max-statements": "off",
       "complexity": "off",
+      "unicorn/no-array-reduce": "off",
     },
   },
   {
