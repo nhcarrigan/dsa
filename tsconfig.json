@@ -4,5 +4,5 @@
         "rootDir": "./src",
         "noEmit": true
     },
-    "exclude": ["vitest.config.ts"]
+    "exclude": ["vitest.config.ts", "_template/**/*"]
 }
