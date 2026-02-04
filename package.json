@@ -19,7 +19,7 @@
     "@nhcarrigan/typescript-config": "4.0.0",
     "@type-challenges/utils": "0.1.1",
     "@types/node": "24.10.1",
-    "@vitest/coverage-v8": "4.0.10",
+    "@vitest/coverage-v8": "4.0.18",
     "eslint": "9.39.1",
     "tsx": "4.20.6",
     "typescript": "5.9.3",
